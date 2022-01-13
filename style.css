@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+html, body {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#image{
+    width: 400px;
+    height: 400px;
+    padding-left: 75px;
+}
+
+a, p {
+    color: grey;
+}
+
+header{
+    background-color: #0A2846;
+    align-items: center;
+    height: 130px;
+    text-align: center;
+}
+
+    .mainTitle {
+        font-family: fantasy;
+        font-size: 3rem;
+        color: white;
+        height: 75px;
+        padding-top: 25px;
+        text-align: center;
+    }
+
+        .navbar-item {
+            font-size: 15px;
+            padding: 10px;
+        }
+
+            .navbar-item:hover {
+                justify-content: space-between;
+                padding: 5px;
+                border-bottom: 2px solid orange;
+                transition: 0.3s;
+            }
+
+section{
+    background-color: #0A2846;
+}
+
+.slide {
+    display: flex;
+    flex-direction: column;
+    height: 900px;
+    background-color: violet;
+    flex: 1;
+    overflow: hidden;
+}
+    .slide-width{
+        height: 100%;
+        display: flex;
+        transition: all ease 0.3s;
+    }
+        .slide-item{
+            width: 100vw;
+            height: inherit;
+            background-position: center;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 80px;
+            font-family: fantasy;
+            text-shadow: 0 1px grey;
+        }
+            
+            .slide-controls{
+                position: absolute;
+                z-index: 99;
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+
+                .slide-control{
+                    width: 50px;
+                    height: 50px;
+                    background-color: lavender;
+                    
+                    overflow: hidden;
+                    cursor: pointer;
+                }
+
+
+.about {
+    height: 1600px;
+}
+
+    h2{
+        color: white;
+        font-size: 50px;
+        margin-left: 30px;
+    }
+
+        .subtitle-about{
+            padding: 15px;
+            font-size: 18px;
+            color: grey;
+        }
+
+            h1{
+                color: tomato;
+                font-size: 6rem;
+            }
+
+            h4{
+                color: grey;
+                font-size: 20px;
+                position: absolute;
+            }
+            .conquests{
+                display: flex;
+                justify-content: space-around; /*Da um espaço entre os itens*/
+                padding: 20px;
+            }
+
+            .title-services{
+                display: flex;
+                justify-content: center;
+                font-size: 30px;
+                padding-right: 45px;
+            }
+
+            .services_1{
+                display: flex;
+                justify-content: space-around; /*Da um espaço entre os itens*/
+                padding: 30px;
+            }
+            .services_2{
+                display: flex;
+                justify-content: center; /*Da um espaço entre os itens*/
+                padding: 30px;
+            }
+            span {
+                color: grey;
+                font-size: 20px;
+            }
+
+.partners{
+    height: 500px;
+    padding: 30px;
+}
+    #partners-image{
+        max-width: 100%;
+    }
+
+.blog{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    height: 500px;
+}
+
+    .anchors{
+        display: flex;
+        flex-direction: column;
+        padding-left: 90px;
+    }
+
+footer{
+    height: 70px;
+    background-color: tomato;
+}
+
+    #footer-text{
+        color: white;
+        font-size: 15px;
+        padding: 30px;
+    }
+
+    hr {
+        border: none;
+        height: 1px;
+        background-color: rgb(112, 112, 112);
+    }
+
